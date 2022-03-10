@@ -23,7 +23,7 @@ public class RobotContainer {
   /** The container for the robot. Contains subsystems, OI devices, and commands. */
   public RobotContainer() {
     driveSubsystem = new DriveSubsystem(); // Initializes a new drive subsystem object.
-    
+    driveController = new XboxController(0);
     // Configure the button bindings
     configureButtonBindings();
   }

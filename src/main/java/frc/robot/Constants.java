@@ -14,13 +14,13 @@ package frc.robot;
  */
 public final class Constants {
     // Front left VictorSPX motor controller ID
-    public static int frontLeftDrive = 1;
+    public static int frontLeftDrive = 2;
     // Front right VictorSPX motor controller ID
-    public static int frontRightDrive = 1;
+    public static int frontRightDrive = 4;
     // Back left VictorSPX motor controller ID
     public static int backLeftDrive = 1;
     // Back right VictorSPX motor controller ID
-    public static int backRightDrive = 1;
+    public static int backRightDrive = 3;
 
     
 }
